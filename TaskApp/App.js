@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet, Image, TextInput, ScrollView, FlatList } from 'react-native';
+import { Text, View, StyleSheet, Image, TextInput, ScrollView, FlatList, Button, Alert } from 'react-native';
 import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
 
@@ -36,6 +36,11 @@ export default function App() {
       </View>
     </View>
   );
+
+  // const MyButton = () => {
+  //   const handlePress = () => {
+  //     Alert.alert('Button pressed!');
+  //   };
 
   return (
     <View style={styles.container}>
